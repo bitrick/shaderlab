@@ -13,6 +13,9 @@ TEMPLATE = app
 
 
 SOURCES += main.cpp\
-        mainwindow.cpp
+        mainwindow.cpp \
+    gl_utils.cpp
 
-HEADERS  += mainwindow.h
+HEADERS  += mainwindow.h \
+    gl_utils.h \
+    typedefs.h
