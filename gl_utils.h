@@ -3,7 +3,7 @@
 
 #include "typedefs.h"
 
-bool init_gl_face()
+bool init_gl_face();
 
 
 #endif // GL_UTILS_H
