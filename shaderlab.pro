@@ -12,13 +12,6 @@ TARGET = shaderlab
 TEMPLATE = app
 
 
-SOURCES += main.cpp\
-        mainwindow.cpp \
-    gl_utils.cpp \
-    gl_window.cpp
+SOURCES += main.cpp
 
-HEADERS  += mainwindow.h \
-    gl_utils.h \
-    typedefs.h \
-    gl_window.h \
-    exceptions.hpp
+HEADERS  +=
