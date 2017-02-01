@@ -139,7 +139,6 @@ void ShaderLab::m_LoadFile(const QString &path)
 
 void ShaderLab::m_Shutdown()
 {
-    qDebug() << "shutdown";
     exit(0);
 }
 
