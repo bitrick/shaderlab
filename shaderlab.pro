@@ -4,7 +4,7 @@
 #
 #-------------------------------------------------
 
-QT       += core gui
+QT       += core gui opengl
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
@@ -12,6 +12,10 @@ TARGET = shaderlab
 TEMPLATE = app
 
 
-SOURCES += main.cpp
+SOURCES += main.cpp \
+    shaderlab.cpp \
+    glcontroller.cpp
 
-HEADERS  +=
+HEADERS  += \
+    shaderlab.h \
+    glcontroller.h
