@@ -17,6 +17,8 @@ ShaderLab::ShaderLab():
 {
     m_InitWindow();
     m_InitGLController();
+
+    _m_Timer.setTimerType(Qt::PreciseTimer);
 }
 
 ShaderLab::~ShaderLab()
