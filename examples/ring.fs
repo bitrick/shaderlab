@@ -13,11 +13,7 @@ void main() {
     vec2 xy = vec2(position.x, position.y / aspect);
 
     float len = length(xy);
-    if (sin(len * 50 - elapsed/50) > 0) {
-        color = vec3(0,0,0);
-    }
-    else {
-        color = vec3(1,1,1);
-    }
+    float r = sin(len * 50. - elapsed/500.);
+    color = vec3(smoothstep(0., 0.1, r));
 }
 
